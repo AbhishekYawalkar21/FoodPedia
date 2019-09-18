@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainbg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logoMain"
+            android:layout_width="149dp"
+            android:layout_height="123dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/recipe" />
+
+        <TextView
+            android:id="@+id/tvwtfpMain"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:text="Welcome To FoodPedia"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/signUpMain"
+            android:layout_width="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvwtfpMain"
+            android:layout_marginTop="80dp"
+            android:text="Sign Up"
+            android:textColor="@color/gray"
+            android:background="@drawable/btn_shape" />
+
+        <Button
+            android:id="@+id/signInMain"
+            android:layout_width="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signUpMain"
+            android:layout_marginTop="30dp"
+            android:text="Sign In"
+            android:textColor="@color/gray"
+            android:background="@drawable/btn_shape"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1056009900805",
+    "firebase_url": "https://foodpedia-7456a.firebaseio.com",
+    "project_id": "foodpedia-7456a",
+    "storage_bucket": "foodpedia-7456a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056009900805:android:87ae1f5b3b7f0f56",
+        "android_client_info": {
+          "package_name": "com.example.foodpedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056009900805-7gu9rdtp7pqjg2oc29apcrsrdf7f2c64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCygz6P6Y1NIXA4NfTS1feiuzg7AUcLMnM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
